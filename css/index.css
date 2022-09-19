@@ -1,0 +1,27 @@
+:root {
+/* color */
+    --naver-green : #21c531;
+    --background-gray : #f6f8fa;
+/* font-black */
+    --font-black1 : #222;
+    --font-black2 : #444;
+    --font-black3 : #666;
+    --font-black4 : #999;
+/* font-white */
+    --font-white1 : #fff;
+    --font-white2 : #fafafa;
+/* footer font color */
+    --footer-font-light : #b3b3b3;
+    --footer-font-dark : #777;
+
+/* size */
+    --container-size : 1000px;
+}
+
+body {
+    background-color: var(--background-gray);
+}
+
+header {
+    display: flex;
+}

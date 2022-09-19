@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 700px;
+            height: 700px;
+            border: 1px solid red;
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
+
+            /* flex-direction: column; */
+        }
+
+        .container > div:nth-child(1){
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        .container > div:nth-child(2){
+            background-color: bisque;
+            width: 100px;
+            height: 100px;
+        }
+        .container > div:nth-child(3){
+            background-color: gold;
+            width: 100px;
+            height: 100px;
+        }
+        .container > div:nth-child(4){
+            background-color: darkorchid;
+            width: 100px;
+            height: 100px;
+        }
+        .container > div:nth-child(5){
+            background-color: skyblue;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
